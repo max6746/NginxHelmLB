@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: nginx
+  repository: mayank6746/spinnginx
   tag: stable
   pullPolicy: IfNotPresent
 
