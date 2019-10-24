@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: mayank6746/spinnginx
-  tag: devlatest
+  tag: ${trigger['tag']}
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
